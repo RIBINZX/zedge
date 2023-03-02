@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#hero h1 {
+    font-weight: bold;
+    color: rgb(251, 255, 156);
+}
+
+#hero p {
+    font-size: 25px;
+    color: white;
+}
+
+#hero h6 {
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+
+#main {
+
+    background: linear-gradient(135deg, rgb(171, 95, 249) 0%, rgb(121, 70, 222) 36.66%, rgb(26, 185, 234) 100%);
+
+}
+
+#crd h5 {
+    font-weight: bold;
+
+}
+
+
+#crd h6 {
+
+    font-size: 18px;
+
+}
+
+#sec h1 {
+    font-weight: bold;
+    color: rgb(150, 67, 235);
+}
+
+#sec p {
+    font-size: 25px;
+    color: rgb(85, 85, 85);
+}
+
+#inp {
+    font-weight: bold;
+    background: rgb(150, 67, 235);
+    color: rgb(255, 255, 255);
+    border: rgb(150, 67, 235);
+}
+
+#sc2 {
+    display: none;
+}
+
+#sc3 {
+    display: none;
+}
+
+#bg1 {
+    background-image: url(img/dee221fcf44dc37280835cc4befd3878cef2f6ea_map2x.png);
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+  
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+#flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+#flex p {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#p {
+    font-size: 27px;
+    font-weight: lighter;
+}
+
+#maph1{
+    font-weight: bold;
+color: rgb(150, 67, 235);
+}
+
+
+#bg2{
+    background: linear-gradient(138.36deg, rgb(134, 66, 221) 5.22%, rgb(228, 69, 152) 100%);    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+}
+#bgco{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+#bgco h1{
+    color: rgb(251, 255, 156);
+    font-weight: bold;
+    font-size: 40px;
+}
+#bgco h2{
+    color: rgb(88, 239, 255);
+    font-weight: bold;
+    font-size: 43px;
+
+}
+#bgco p{
+    
+  line-height: 13px;
+  color: white;
+  font-size: 23px;
+  font-weight: normal;
+
+}
+
+#bgimg{
+    display: flex;
+  
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+
+
+#bg3{
+    background: linear-gradient(138.36deg, rgb(134, 66, 221) 5.22%, rgb(228, 69, 152) 100%);    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+}
+#bgco1 h1{
+    color: rgb(251, 255, 156);
+    font-weight: 500;
+    font-size: 35px;
+}
+
+
+
+
+
+
+@media (max-width: 800.98px) {
+    #sc3 {
+        display: contents;
+    }
+
+    #sc2 {
+        display: none;
+    }
+
+
+
+}
+
+@media (max-width: 780.98px) {
+    #hero img {
+        margin-top: 32px;
+    }
+
+    #hero {
+        height: 150vh;
+        overflow: hidden;
+    }
+
+    #sc1 {
+        display: none;
+    }
+
+    #flex {
+        display: block;
+
+    }
+
+    #flex p {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #p {
+        font-size: 24px;
+        font-weight: lighter;
+    }
+    #bgco h1{
+        
+        font-size: 32px;
+    }
+    #bgco h2{
+        
+        font-size: 35px;
+    
+    }
+    #bgco p{
+        
+      line-height: 13px;
+      
+      font-size: 15px;
+      
+    
+    }
+    #bgco1 h1{
+      
+        font-size: 30px;
+    }
+    
+
+
+
+
+}
+
+@media (max-width: 575.98px) {
+    #hero h1 {
+        font-size: 20px;
+    }
+
+    #hero p {
+        font-size: 15px;
+    }
+
+    #sec h1 {
+        font-size: 30px;
+    }
+
+    #sec p {
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    #sec img {
+        margin-top: 32px;
+    }
+
+    #hero img {
+        margin-top: 32px;
+    }
+
+    #hero h6 {
+        font-size: 12px;
+
+    }
+
+    #inp {
+        font-weight: 500;
+        padding: 5px;
+    }
+
+    #hero {
+        height: 90vh;
+        overflow: hidden;
+        z-index: -2;
+    }
+
+    #sec {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #sc2 {
+        display: contents;
+    }
+
+    #sc3 {
+        display: none;
+    }
+    #bgco1 h1{
+      
+        font-size: 25px;
+    }
+}
+@media (max-width: 575.98px) {
+
+}
